@@ -1,0 +1,19 @@
+{
+  "name": "admin-ds-v1",
+  "version": "1.0.0",
+  "description": "企业级电商管理系统",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SUNYIMIN/admin-ds-v1.git"
+  },
+  "author": "sunyimin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SUNYIMIN/admin-ds-v1/issues"
+  },
+  "homepage": "https://github.com/SUNYIMIN/admin-ds-v1#readme"
+}
