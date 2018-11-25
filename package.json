@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/SUNYIMIN/admin-ds-v1/issues"
   },
-  "homepage": "https://github.com/SUNYIMIN/admin-ds-v1#readme"
+  "homepage": "https://github.com/SUNYIMIN/admin-ds-v1#readme",
+  "devDependencies": {
+    "webpack": "3.10.0"
+  }
 }
