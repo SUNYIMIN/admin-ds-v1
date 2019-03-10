@@ -2,7 +2,7 @@
  * @Author: sunyimin 
  * @Date: 2018-11-25 18:14:09 
  * @Last Modified by: sunyimin
- * @Last Modified time: 2018-11-30 17:41:41
+ * @Last Modified time: 2019-03-05 19:28:05
  */
 const path = require('path');
 const webpack = require('webpack');
@@ -14,7 +14,7 @@ const NODE_ENV = process.env.NODE_ENV;
 module.exports = {
   entry: {
     vendor: ['react', 'react-dom'],
-    boundle: './src/app.js'
+    boundle: './src/entry.js'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),  //绝对路径

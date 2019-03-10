@@ -1,0 +1,20 @@
+.app-layout-wrap {
+  .app-layout-header {
+    height: 60px;
+    background: #fff;
+    border-bottom: 1px solid #EAEAEA;
+  }
+  .app-layout-content {
+    display: flex;
+  }
+  .app-layout-side {
+    width: 190px;
+    height: calc(100vh - 61px);
+    background: #001529;
+  }
+  .app-layout-container {
+    width: calc(100vw - 190px);
+    height: calc(100vh - 61px);
+    background: #666;
+  }
+}
