@@ -7,6 +7,7 @@ const router = (
    <Route path="/" component={App}>
      <IndexRoute component={Home} />
      <Route path="account" getComponent={Cs.Account} />
+     <Route path="media" getComponent={Cs.Media} />
    </Route>
 )
 
