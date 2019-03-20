@@ -2,7 +2,7 @@
  * @Author: sunyimin 
  * @Date: 2018-11-25 18:14:09 
  * @Last Modified by: sunyimin
- * @Last Modified time: 2019-03-05 19:28:05
+ * @Last Modified time: 2019-03-20 14:47:18
  */
 const path = require('path');
 const webpack = require('webpack');
@@ -28,6 +28,7 @@ module.exports = {
       containers: path.resolve(__dirname, 'src/containers')
     }
   },
+  devtool: '#eval-source-map',
   module: {
     rules: [
       {
